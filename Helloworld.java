@@ -1,6 +1,6 @@
 public class Helloworld
 {
-    public static void main(String []arags)
+    public static void main(String []args)
     /*The main() or main method represent the start of the excutable in the Java Virtual Machine or JVM it's not alway necessary, but is always essential in a java programming*/
     {
         // First line just saying hello world 
