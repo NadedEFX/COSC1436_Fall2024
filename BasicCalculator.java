@@ -30,7 +30,7 @@ public class BasicCalculator
         char operation = operationInput.charAt(0);
         if (operationInput.equalsIgnoreCase("exit")){
         exit = true;
-        System.out.println("Exiting the calculator. Goodby!");
+        System.out.println("Exiting the calculator. Goodbye!");
         break;
         }
 
