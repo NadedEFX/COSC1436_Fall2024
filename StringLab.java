@@ -4,20 +4,20 @@ public class StringLab
     {
         String str = "Welcome to the Java String Lab!";
         //length() part
-        System.out.println(str.length());
+        System.out.println("The length of the string is: " + str.length());
         //charAt() part
-        System.out.println(str.charAt(7));
+        System.out.println("The letter at 7 is: " + str.charAt(7));
         //substring() part
-        System.out.println(str.substring(15,20));
+        System.out.println("The part that was subtracted was: " + str.substring(15,20));
         //toUpperCase() and toLowerCase() part
-        System.out.println(str.toUpperCase());
-        System.out.println(str.toLowerCase());
+        System.out.println("All letter uppercased in the sentence: " + str.toUpperCase());
+        System.out.println("All letter lowercased in the sentence: " + str.toLowerCase());
         //indexOf() part
-        System.out.println(str.indexOf("Java"));
+        System.out.println("The index for java is: " + str.indexOf("Java"));
         //contain() part
-        System.out.println(str.contains("Lab"));
+        System.out.println("Does the sentence contain lab: " + str.contains("Lab"));
         //replace() part
-        System.out.println(str.replace("Java","Java Programming"));
+        System.out.println("Replacing the string with Java Programming: " + str.replace("Java","Java Programming"));
         //split() part
         String[] parts = str.split(" ");
         for (String part : parts)
