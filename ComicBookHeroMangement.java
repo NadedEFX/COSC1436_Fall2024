@@ -1,3 +1,4 @@
+//importing the arrays to be able to use the 2d array list
 import java.util.ArrayList;
 import java.util.Arrays;
 
